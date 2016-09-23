@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
+  get 'contact/show'
+
+  get 'about/index'
+
+  get 'about/show'
+
   resources :portfolios
   get 'home/index'
 
