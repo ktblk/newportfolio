@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ /*@import "materialize";*/
+
+
+#name {
+  font-family: Avenir;
+  color: black;
+  text-align:left;
+  position: relative;
+}
+
+#period {
+  font-family: Avenir;
+  color: #1E90FF;
+  text-align:center;
+  position: relative;
+}

@@ -12,5 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+// require turbolinks
+// require_tree .
+
+// $('.button-collapse').on('click', function(){
+//   $('#slide-out').css('transition', '1s')
+// });
+// $('.button-collapse').sideNav({
+//      menuWidth: 200, // Default is 240
+//      edge: 'right', // Choose the horizontal origin
+//      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+//    }
+//  );

@@ -1,14 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Miniport</title>
+    <title>Katie Black</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
   </head>
 
   <body>
+    <h1 id="name"><b>katie<span id="period">_</span><span>black</span></b></h1>
+
+
     <%= yield %>
+
+
+<a class="material-icons" data-target="#myModal1" data-toggle="modal" style="font-size: 50px; color: #1E90FF; position: absolute; bottom: 0; right: 0;">dashboard</a>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" id="myModal1" aria-labelledby="myLargeModalLabel" style="width:85%; height: 85%;">
+      <!-- Som that data-toggle come from bootsrap right? So their javascript is doing something with that element no need to worry about that now.
+    Just keep in mind that it need to be there. -->
+      <div class="modal-dialog modal-lg">
+        <h2 style="text-align:center;">Projects</h2>
+        <br><br>
+        <!-- ________ -->
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="https://hd.unsplash.com/photo-1461749280684-dccba630e2f6">
+              <div class="caption">
+                <h3>codeCollab.</h3>
+                <p>Collaborate and run code through a simple, interactive text editor. Teach, work and learn with codeCollab. to enhance your development expeirence.</p>
+                <p>Code better. Together</p>
+                <p>🏅Winner of Pitch Day for Wyncode Miami Cohort X</p>
+                <p>
+                  <a href="https://github.com/ktblk/codeCollab." class="fa fa-github-square fa-3x" target="_blank"></a>
+
+
+                  <a href="http://codecollab.co" class="fa fa-external-link-square fa-3x" target="_blank"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- ______ -->
+         <!-- ________ -->
+         <div class="row">
+           <div class="col-sm-6 col-md-4">
+             <div class="thumbnail">
+               <img src="https://hd.unsplash.com/photo-1461749280684-dccba630e2f6">
+               <div class="caption">
+                 <h3>Wynstagram.</h3>
+                 <p>A fun, creative way to celebrate the great times we had while at Wyncode.</p>
+                 <p>Created for the Friends and Family Project halfway through the course.</p>
+                 <p>
+                   <a href="https://github.com/ktblk/Wnsta" class="fa fa-github-square fa-3x" target="_blank"></a>
+
+
+                   <!-- <a href="https://codecollab.co" class="fa fa-external-link-square fa-3x" target="_blank"></a> -->
+                 </p>
+               </div>
+             </div>
+           </div>
+          </div>
+          <!-- ______ -->
+          <!-- ________ -->
+          <div class="row">
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="..." alt="...">
+                <div class="caption">
+                  <h3>Thumbnail label</h3>
+                  <p>...</p>
+                  <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- ______ -->
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
