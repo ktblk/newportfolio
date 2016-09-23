@@ -1,0 +1,27 @@
+<%= form_for(portfolio) do |f| %>
+  <% if portfolio.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(portfolio.errors.count, "error") %> prohibited this portfolio from being saved:</h2>
+
+      <ul>
+      <% portfolio.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :githuburl %>
+    <%= f.text_field :githuburl %>
+  </div>
+
+  <div class="field">
+    <%= f.label :herokuurl %>
+    <%= f.text_field :herokuurl %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
