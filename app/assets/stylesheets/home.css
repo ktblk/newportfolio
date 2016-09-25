@@ -8,3 +8,34 @@
  font-size: 30px;
  text-align: center;
 }*/
+body {
+  opacity: 0.85;
+}
+
+#enter {
+  color: #1E90FF;
+}
+
+#enter:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+
+#name {
+  /*opacity: 0.87;*/
+  font-family: Avenir;
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  position: absolute;
+        top: 42%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  border-radius: 2%;
+}
+
+#name:hover {
+  color: #ffee58;
+  transition: 0.5s;
+}

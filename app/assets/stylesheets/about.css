@@ -2,3 +2,122 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+#name1 {
+  positon: absolute;
+  positon: absolute;
+  top: 0px;
+  margin-top: 0;
+  margin-right: 3px;
+  float: right;
+  color: #ffe81a;
+}
+
+#aboutme {
+  positon: absolute;
+  font-family: Avenir;
+  text-align: center;
+  color: black;
+}
+
+#hiwelcome {
+  positon: absolute;
+  font-family: Avenir;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  color: #1E90FF;
+}
+#aboutpara {
+  positon: absolute;
+  font-family: Avenir;
+  text-align: justify;
+  color: black;
+  width: 50%;
+  margin-left: 25%;
+}
+.icons-ul {
+  text-align: center;
+  margin: 25px;
+  padding: 0;
+}
+.icons-ul li {
+ display: inline;
+ list-style-type: none;
+ margin: 0 10px;
+}
+.icons-ul li a {
+  color: black;
+  text-decoration: none;
+}
+.icons-ul li a:hover {
+  background-color: #1E90FF;
+}
+
+#about {
+  position: absolute;
+        top: 42%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+#back {
+  color: #1E90FF;
+}
+
+#back:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+
+#projects {
+  color: #1E90FF;
+}
+
+#projects:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+
+#contact {
+  position: absolute;
+        top: 103%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#contact:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+
+#projectme {
+  positon: absolute;
+  font-family: Avenir;
+  text-align: center;
+  color: black;
+}
+
+#home {
+  color: #1E90FF;
+}
+
+#home:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+
+#projects1 {
+  position: absolute;
+        top: 42%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
