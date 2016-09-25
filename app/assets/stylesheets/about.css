@@ -42,6 +42,7 @@
   text-align: center;
   margin: 25px;
   padding: 0;
+  /*font-family: Avenir;*/
 }
 .icons-ul li {
  display: inline;
@@ -127,4 +128,78 @@
 #menu-toggle {
   position: absolute;
         bottom: 0 !important;
+}
+
+/*#proj {
+  position: absolute;
+        top: 103%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#proj:hover {
+  /*text-dectoration: none;*/
+  /*background-color: #FFFFFF;*/
+/*}*/
+
+.icons-ml {
+  text-align: center;
+  margin: 25px;
+  margin-top: 50px;
+  padding: 0;
+  font-family: Avenir;
+}
+.icons-ml li {
+ display: inline;
+ list-style-type: none;
+ margin: 0 10px;
+}
+.icons-ml li a {
+  color: black;
+  text-decoration: none;
+}
+.icons-ml li a:hover {
+  background-color: #ffe81a;
+}
+
+
+#launch {
+  position: absolute;
+        top: 103%;
+        left: 40%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#launch:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+#launch1 {
+  position: absolute;
+        top: 103%;
+        left: 60%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#launch1:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
 }
