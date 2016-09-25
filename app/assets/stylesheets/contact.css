@@ -2,3 +2,51 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+#contacts {
+  position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
+
+#launch2 {
+  position: absolute;
+        top: 103%;
+        left: 30%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#launch2:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+#launch3 {
+  position: absolute;
+        top: 103%;
+        left: 70%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+  font-family: Avenir;
+  text-align: center;
+  font-size: 15px;
+  color: #1E90FF;
+  font-size: 15px;
+}
+
+#launch3:hover {
+  /*text-dectoration: none;*/
+  background-color: #FFFFFF;
+}
+/*
+.heads {
+  width: 50%;
+  height: 50%;
+}*/
