@@ -2,6 +2,8 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+@import 'materialize';
+/*@import 'navbar-fixed-side';*/
 
 #name1 {
   positon: absolute;
@@ -120,4 +122,9 @@
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+}
+
+#menu-toggle {
+  position: absolute;
+        bottom: 0 !important;
 }

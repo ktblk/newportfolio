@@ -3,21 +3,136 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+
   </head>
   <body>
     <h1 id="name1"><b>katie<span id="period">_</span><span>black</span></b></h1>
     <br><br>
 
-    <div id="projects">
+    <div id="projects1">
     <h2 id="projectme">Projects</h2> <br>
 
-    <p id="aboutpara">I'm a junior full-stack web developer, as well as a Biologist and avid sports fan.  By all means, browse around. You'll find my GitHub, Linkedin and Twitter all from the associated icons below.  Also, visit the Projects page to see a list of some of the works I've completed or that are currently in-process.</p>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 50%; height: 50%; margin-left: 25%;" id="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag("cc.png", :alt => "headshot", :class => "style") %>
+      <div class="carousel-caption" style="font-family: Avenir;">
+        codeCollab<span style="color: cyan;">.</span>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("wnsta1.png", :alt => "headshot", :class => "style3") %>
+      <div class="carousel-caption" style="font-family: Avenir; color: cyan;">
+        Wynstagram.
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("json1.png", :alt => "headshot", :class => "style3") %>
+      <div class="carousel-caption" style="font-family: Avenir; color: black;">
+        MedMotion API
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("ccws.png", :alt => "headshot", :class => "style3") %>
+      <div class="carousel-caption" style="font-family: Avenir;">
+        codeCollab<span style="color: cyan;">.</span>
+      </div>
+    </div>
+    <div class="item">
+      <%= image_tag("wnsta2.png", :alt => "headshot", :class => "style3") %>
+      <div class="carousel-caption" style="font-family: Avenir; color: cyan;">
+        Wynstagram.
+      </div>
+    </div>
+
+    <!-- <div class="item">
+      <img src="..." alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div> -->
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
       </div>
 
         <a href="/about/index" id="back"style="font-size: 20px; font-family: Avenir; position: absolute; bottom: 1px; left: 5px;">Back</a>
         <a href="/home/index" id="home"style="font-size: 20px; font-family: Avenir; position: absolute; bottom: 1px; right: 5px;">Home</a>
+
+        <!-- <div id="wrapper"> -->
+
+            <!-- Sidebar -->
+            <!-- <div id="sidebar-wrapper" style="height:50%;">
+                <ul class="sidebar-nav">
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Shortcuts</a>
+                    </li>
+                    <li>
+                        <a href="#">Overview</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <!-- <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12" style="position: absolute; top: 103%; bottom: 0;">
+                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- /#page-content-wrapper -->
+
+        <!-- </div> -->
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <!-- <script src="js/jquery.js"></script> -->
+
+        <!-- Bootstrap Core JavaScript -->
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+
+        <!-- Menu Toggle Script -->
+        <!-- <script>
+        $("#menu-toggle").click(function(e) {
+            // e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        </script> -->
+
+
 
   </body>
 </html>
