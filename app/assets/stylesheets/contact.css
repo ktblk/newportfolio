@@ -14,7 +14,7 @@
 #launch2 {
   position: absolute;
         top: 103%;
-        left: 30%;
+        left: 20%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
   font-family: Avenir;
@@ -31,7 +31,7 @@
 #launch3 {
   position: absolute;
         top: 103%;
-        left: 70%;
+        left: 80%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
   font-family: Avenir;
